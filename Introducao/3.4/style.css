@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-color: #6e7582;
+    font-family: 'Righteous', cursive;
+}
+
+header{
+    background-color: #046582;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+header h1{
+    padding-top: 20px;
+    color: #f39189;
+}
+
+.links{
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.links li{
+    list-style: none;
+    display: inline-block;
+    margin: 15px 50px;
+    font-size: 1.2rem;
+}
+
+.links li a{
+    text-decoration: none;
+    color: #bb8082;
+}
+
+.links li a:hover{
+    color: #f39189;
+}
+
+main{
+    max-width: 80%;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+aside{
+    width: 20%;
+    float: right;
+    text-align: center;
+    margin-top: 15px;
+}
+
+aside li{
+    list-style: none;
+    padding: 10px;
+}
+
+
+.cientific-name{
+    font-style: italic;
+}
+
+article section{
+    display: inline-block;
+    width: 40%;
+    margin-left: 5%;
+    margin-top: 15px;
+    border-bottom: 1px solid black;
+}
+
+section:nth-of-type(-n+2){
+    padding-top: 40px;
+}
+
+section:last-of-type{
+    border-bottom: none;
+}
+
+
+section li{
+    margin-bottom: 15px;
+}
+
+
+.img1{
+    float: left;
+    width: 200px;
+    padding: 15px 15px 15px 0;
+}
+
+.img2{
+    width: 450px;
+    padding-bottom: 30px;
+    padding-top: 40px;
+}
+
+.img3{
+    width: 400px;
+    padding: 10px 0;
+}
+
+.img4{
+    width: 200px;
+    float: right;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+
+.img5{
+    width: 250px;
+}
+
+.referencies{
+    width: 82.5%;
+    text-align: center;
+}
+
+.referencies li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+footer{
+    background-color:  #bb8082;
+    margin-top: 15px;
+    padding: 15px;
+    font-style: italic;
+}
+
+h2, h3{
+    padding-bottom: 15px;
+}
+
+h2{
+    padding-top: 15px;
+}
+
+article h2, p {
+    margin-left: 20px;
+}
+
+video{
+    width: 250px;
+}
