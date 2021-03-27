@@ -1,11 +1,15 @@
-let primos = [2, 3, 5, 7];
+let number = 89;
 
-let n = 100;
+let counter = 0;
 
-for(let i=1; i<=n; i += 1){
-    if(i % 2 !==0 && i % 3 !==0 && i % 5 !== 0 && i % 7 !== 0){
-        primos.push(i)
+for (i = number; i>0; i-=1){
+    if(number % i ===0){
+        counter +=1;
     }
 }
 
-console.log(primos)
+if(counter === 2){
+    console.log('Número primo')
+} else {
+    console.log('Número não é primo')
+}
